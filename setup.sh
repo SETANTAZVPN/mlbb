@@ -79,18 +79,15 @@ mkdir /etc/vmess
 mkdir /etc/vless
 mkdir /etc/trojan
 clear
-
-function LOGO() {
-    echo -e "
- ┌─────────────────────────────────────────────────────────┐
-─│                        ${BLUE}WELCOME TO${NC}                       │─
-─│    ${YELLOW}┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┌─┐┬─┐┌─┐┌┬┐┬┬ ┬┌┬┐${NC}    │─
-─│    ${YELLOW}├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   ├─┘├┬┘├┤ │││││ ││││${NC}    │─
-─│    ${YELLOW}┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴  ┴└─└─┘┴ ┴┴└─┘┴ ┴${NC}    │─
-─│        ${RED}POWERRED BY ALFVPN${NC} | ${Green}TELEGRAM: @Mass_Alfin${NC}       │─
- └─────────────────────────────────────────────────────────┘"
-
-}
+echo -e ""
+echo -e " ┌─────────────────────────────────────────────────────────┐"
+echo -e "─│                        ${BLUE}WELCOME TO${NC}                       │─"
+echo -e "─│    ${YELLOW}┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┌─┐┬─┐┌─┐┌┬┐┬┬ ┬┌┬┐${NC}    │─'
+echo -e "─│    ${YELLOW}├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   ├─┘├┬┘├┤ │││││ ││││${NC}    │─"
+echo -e "─│    ${YELLOW}┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴  ┴└─└─┘┴ ┴┴└─┘┴ ┴${NC}    │─"
+echo -e "─│        ${RED}POWERRED BY STVPN${NC} | ${Green}TELEGRAM: @Tazpin${NC}       │─"
+echo -e " └─────────────────────────────────────────────────────────┘"
+echo -e ""
 read -p "Input Your SubDomain : " domain
 read -p "Input Your NS Domain : " nsdomain
 echo "$domain" > /root/scdomain
