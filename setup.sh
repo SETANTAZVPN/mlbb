@@ -10,13 +10,6 @@
 #Skc
 clear
 #=========================================================================================================================
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Premium Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
-echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "       © Recode By Premium ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo ""
-
 run_eula() {
 if [ "${EUID}" -ne 0 ]; then
 		echo "You need to run this script as root"
@@ -82,9 +75,9 @@ clear
 echo -e ""
 echo -e " ┌─────────────────────────────────────────────────────────┐"
 echo -e "─│                        ${BLUE}WELCOME TO${NC}                       │─"
-echo -e "─│    ${YELLOW}┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┌─┐┬─┐┌─┐┌┬┐┬┬ ┬┌┬┐${NC}    │─'
+echo -e "─│    ${YELLOW}┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┌─┐┬─┐┌─┐┌┬┐┬┬ ┬┌┬┐${NC}    │─"
 echo -e "─│    ${YELLOW}├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   ├─┘├┬┘├┤ │││││ ││││${NC}    │─"
-echo -e "─│    ${YELLOW}┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴  ┴└─└─┘┴ ┴┴└─┘┴ ┴${NC}    │─"
+echo -e "─│    ${YELLOW}┴ ┴└─┘ ┴ │─└─┘└─┘┴└─┴┴   ┴   ┴  ┴└─└─┘┴ ┴┴└─┘┴ ┴${NC}    │─"
 echo -e "─│        ${RED}POWERRED BY STVPN${NC} | ${Green}TELEGRAM: @Tazpin${NC}       │─"
 echo -e " └─────────────────────────────────────────────────────────┘"
 echo -e ""
