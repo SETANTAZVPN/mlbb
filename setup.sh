@@ -210,7 +210,7 @@ run_ei() {
     if [[ "$ipvps" != "$ip_vps" ]]; then
       # Add your message here for when the VPS doesn't have permission
 clear
-      echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+      echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
       echo -e "                PERMISSION DENIED ! "
       echo -e "     Your VPS ${NC}( ${green}$ipvps${NC} ) ${YELLOW}Has been Banned "
       echo -e "         Buy access permissions for scripts "
