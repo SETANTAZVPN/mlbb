@@ -184,7 +184,7 @@ run_ei() {
   url_izin='https://raw.githubusercontent.com/SETANTAZVPN/mlbb/main/izin.txt'
 
   # Mendapatkan IP VPS saat ini
-  ip_vps=$(curl -s ifconfig.me)
+  ip_vps=$(curl -sS ipinfo.io/ip)
 
   # Mendapatkan isi file izin.txt dari URL
   izin=$(curl -s "$url_izin")
